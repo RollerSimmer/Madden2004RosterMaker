@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RosterMaker - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/RosterMaker.res" /d "NDEBUG" /d "_AFXDLL" "E:\games\madden utils\RosterMaker\RosterMaker.rc"" 
+Creating temporary file "E:\DOCUME~1\John\LOCALS~1\Temp\RSP1D7.tmp" with contents
+[
+/nologo /Zp1 /MD /w /W0 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\games\madden utils\RosterMaker\Edit_Append.cpp"
+"E:\games\madden utils\RosterMaker\ProcessTemplate.cpp"
+"E:\games\madden utils\RosterMaker\roster2csv.cpp"
+"E:\games\madden utils\RosterMaker\RosterMaker.cpp"
+"E:\games\madden utils\RosterMaker\RosterMakerDlg.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\John\LOCALS~1\Temp\RSP1D7.tmp" 
+Creating temporary file "E:\DOCUME~1\John\LOCALS~1\Temp\RSP1D8.tmp" with contents
+[
+/nologo /Zp1 /MD /w /W0 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/RosterMaker.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\games\madden utils\RosterMaker\StdAfx.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\John\LOCALS~1\Temp\RSP1D8.tmp" 
+Creating temporary file "E:\DOCUME~1\John\LOCALS~1\Temp\RSP1D9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/RosterMaker.pdb" /machine:I386 /force /out:"program/RosterMaker.exe" 
+".\Release\Edit_Append.obj"
+".\Release\ProcessTemplate.obj"
+".\Release\roster2csv.obj"
+".\Release\RosterMaker.obj"
+".\Release\RosterMakerDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\RosterMaker.res"
+"C:\Files\vc2\vcLib\lib\prompt.lib"
+"C:\Files\vc2\vcLib\lib\FileIO2.lib"
+"..\tdbaccess\c++ lib\Debug\tdbAccess.lib"
+]
+Creating command line "link.exe @E:\DOCUME~1\John\LOCALS~1\Temp\RSP1D9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Edit_Append.cpp
+ProcessTemplate.cpp
+roster2csv.cpp
+RosterMaker.cpp
+RosterMakerDlg.cpp
+Generating Code...
+Linking...
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  kpBases" (?kpBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  safBases" (?safBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  cbBases" (?cbBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  lbBases" (?lbBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  dtBases" (?dtBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  deBases" (?deBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  olBases" (?olBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  teBases" (?teBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  wrBases" (?wrBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  fbBases" (?fbBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  rbBases" (?rbBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT *  qbBases" (?qbBases@@3PAUMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "short *  RTG_MIN_ARRAY" (?RTG_MIN_ARRAY@@3PAFA) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "short *  RTG_MAX_ARRAY" (?RTG_MAX_ARRAY@@3PAFA) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "short *  RTG_VARY_ARRAY" (?RTG_VARY_ARRAY@@3PAFA) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT  RTG_MAX" (?RTG_MAX@@3UMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT  RTG_MIN" (?RTG_MIN@@3UMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "struct MAD04__PLATER_PROTOTYPE_STRUCT  RTG_VARIANCE" (?RTG_VARIANCE@@3UMAD04__PLATER_PROTOTYPE_STRUCT@@A) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "short  globCreatedTeamsOnly" (?globCreatedTeamsOnly@@3FA) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "short  ageMax" (?ageMax@@3FA) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "short  ageMin" (?ageMin@@3FA) already defined in ProcessTemplate.obj; second definition ignored
+roster2csv.obj : warning LNK4006: "int *  SKIN_TONE_DISTRIBUTION" (?SKIN_TONE_DISTRIBUTION@@3PAHA) already defined in ProcessTemplate.obj; second definition ignored
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+LINK : warning LNK4098: defaultlib "MSVCRTD" conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+program/RosterMaker.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+LINK : warning LNK4089: all references to "MSVCRTD.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+RosterMaker.exe - 0 error(s), 28 warning(s)
+</pre>
+</body>
+</html>

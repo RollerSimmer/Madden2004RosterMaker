@@ -1,0 +1,12 @@
+Template files are pretty simple in format.  Here are the basic parsing properties:
+
+- Lines are read separately.  There is no support for multi-line statements. 
+- Blank lines are ignored
+- Tabs and spaces are considered 'Whitespace', but not newlines. 
+- The first non-whitespace character in a line is considered the 'beginning' of that line.   
+- Lines beginning with the pound sign ('#'), are considered comments, and ignored. 
+- Data lines are a series of whitespace-separated values on a single line.
+- Text (aka string) values are to be closed at both ends by a double quote mark(as in "this is a text value")
+- Order of the template is hard-coded, and dependant on the Version value at the head of the file.
+ 
+Note:  Make sure you edit the files in a plain text editor, like notepad, that doesn't add anything to the plain text upon saving.  Also be sure to turn word wrap off if you are in notepad.
